@@ -46,11 +46,18 @@ strong {
   gap: 3rem;
 }
 
+.galaxy-box:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
 .galaxy-box {
   width: 100%;
   border-radius: 0.8rem;
   border: 2px solid #323238;
   background: #202024;
+
+  transition: transform 600ms;
 }
 
 .galaxy-box img {
